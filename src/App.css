@@ -1,0 +1,124 @@
+.App {
+  /*text-align: center;*/
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /*background-color: #282c34;*/
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  /*color: white;*/
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Chart {
+  height: 470px;
+  width: 470px;
+  /*background-image: url("http://astrologie-traditionnelle.net/cgi-bin/SweInterface.cgi?sw_chart=true");*/
+  background-size:100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size:cover;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 0px) and (max-width: 360px)  {
+  .Chart {
+    height: 360px;
+    width: 360px;
+  }
+}
+@media screen and (min-width: 361px) and (max-width: 375px)  {
+  .Chart {
+    height: 375px;
+    width: 375px;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 467px)  {
+  .Chart {
+    height: 376px;
+    width: 376px;
+  }
+}
+@media screen and (min-width: 468px) and (max-width: 599px)  {
+  .Chart {
+    height: 376px;
+    width: 376px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1023px)  {
+  .Chart {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+
+label {
+  width: 300px;
+  display:inline-block
+}
+
+.TableBodie {
+  text-align: left!important;
+}
+
+.TableBorder {
+  border: 1px solid;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.FieldSet {
+  text-align: right;
+}
+
+.Astre {
+  height: 20px;
+  width: 20px;
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: cover;
+}
+
+.Sign {
+  height: 20px;
+  width: 20px;
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box {
+  margin-top: 40px;
+}
