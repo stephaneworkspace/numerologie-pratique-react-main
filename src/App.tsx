@@ -198,7 +198,7 @@ function App() {
     const date = formData.date.split("-")
     // TODO tel et mobile
     url += "cgi-bin/numerologie_core.cgi" +
-        "year=" + date[0] +
+        "?year=" + date[0] +
         "&month=" + date[1] +
         "&day=" + date[2] +
         "&first_name=" + formData.first_name +
