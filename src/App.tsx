@@ -233,6 +233,10 @@ function App() {
 
   const [selectValue, setSelectValue] = React.useState("")
 
+  const affichage: JSX.Element = (<div>
+    {nombres.chemin_de_vie}
+  </div>)
+
   const date = formData.date.split("-")
   return (
       <div className="App">
@@ -280,6 +284,7 @@ function App() {
               </div>
             </div>
           </div>
+          {affichage}
         </form>
       </header>
     </div>
